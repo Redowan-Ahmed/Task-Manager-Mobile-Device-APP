@@ -3,12 +3,12 @@ import { WebView } from 'react-native-webview';
 import Constants from 'expo-constants';
 
 
-export default function HomeScreen() {
+export default function AboutScreen() {
 
   return (
     <View style={styles.container}>
       <WebView
-          source={{ uri: 'https://redowan.mercegrower.com/tasks' }}
+          source={{ uri: 'https://redowan.mercegrower.com/about' }}
       />
     </View>
   );
